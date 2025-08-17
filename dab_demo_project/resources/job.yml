@@ -1,0 +1,12 @@
+resources:
+  jobs:
+    add_numbers_job:
+      name: add numbers job
+      tasks:
+        - task_key: add-numbers
+          notebook_task:
+            notebook_path: /Workspace/Users/chinmaykulkarni2018@gmail.com/dab-demo/Src/Math
+            source: WORKSPACE
+      queue:
+        enabled: true
+      performance_target: STANDARD
